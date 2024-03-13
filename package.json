@@ -1,8 +1,8 @@
 {
   "name": "request-jsonp",
   "private": false,
-  "version": "0.0.3",
-  "description": "fetch请求jsonp",
+  "version": "0.0.4",
+  "description": "像ajax与fetch一样使用jsonp请求",
   "main": "dist/index.mjs",
   "type": "module",
   "publishConfig": {
