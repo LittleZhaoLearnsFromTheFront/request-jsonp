@@ -1,0 +1,33 @@
+{
+  "name": "request-jsonp",
+  "private": false,
+  "version": "0.0.3",
+  "description": "fetch请求jsonp",
+  "main": "dist/index.mjs",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "homepage": "https://github.com/LittleZhaoLearnsFromTheFront",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/LittleZhaoLearnsFromTheFront/request-false.git"
+  },
+  "scripts": {
+    "build": "unbuild",
+    "prepublish": "unbuild"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "fetch",
+    "jsonp"
+  ],
+  "author": "zhaohx0409@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "unbuild": "^2.0.0"
+  }
+}
